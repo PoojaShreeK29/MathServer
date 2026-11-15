@@ -115,6 +115,7 @@ urlpatterns = [
 ![alt text](<Screenshot (32)-1.png>)
 
 ## OUTPUT - WEBPAGE:
+
 ![alt text](<Screenshot (34)-1.png>)
 
 ## RESULT:
