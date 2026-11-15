@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Churn rate
+            </title>
+        </head>
+        <body bgcolor="aqua">
+            <h1>POOJA SHREE K</h1>
+            <h2>26018233</h2>
+            <form method="POST">
+            {%csrf_token %}<br><br>
+                
+
+        <label>INITIAL CUSTOMER:</label>
+        <input type="number" name="initial_cust" value="{{l}}" ><br><br>
+
+        <label>PRESENT CUSTOMER:</label>
+        <input type="number" name="present_cust" value="{{i}}" ><br><br>
+
+        <input type="submit" value="Calculate"><br><br>
+
+        <label>CHURN RATE:</label>
+        <input type="number" value="{{churnrate}}"><br><br>
+
+            </form>
+        </body>
